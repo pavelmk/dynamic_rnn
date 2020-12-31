@@ -1,5 +1,5 @@
 # Dynamic RNN for Paragraph Grading
-2018.06
+2018.06 -- Pavel K
 
 ## Introduction
 We provide a generic framework from scratch for building a regression classifier for paragraphs of text into numerical scores. Our approach is motivated by Andrej Karpathy's classic essay, ["The Unreasonable Effectiveness of Recurrent Neural Networks"](https://karpathy.github.io/2015/05/21/rnn-effectiveness/), and much of the subsequent work on RNNs. We choose a dynamic RNN to allow for various-length input sequences (e.g. paragraphs of different length). 
